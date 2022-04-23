@@ -2,16 +2,6 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 import MovieSearchbox from './components/MovieSearchbox';
 
-interface Movie {
-  s: string;
-  results: Array<string>;
-  selected: object
-}
-
-interface MovieTitle {
-  title: string
-}
-
 export default function App() {
 
   return (

@@ -14,18 +14,18 @@ export default function MovieSearchbox() {
   }, [])
 
   return (
-    <View>
-      );
-    }
-    
+    <Text>Hi</Text>
+  );
+}
+
 const styles = StyleSheet.create({
-        searchbox: {
-        fontSize: 20,
-      fontWeight: '300',
-      padding: 20,
-      width: '100%',
-      backgroundColor: '#FFF',
-      borderRadius: 8,
-      marginBottom: 40
-    }
-  });
+  searchbox: {
+    fontSize: 20,
+    fontWeight: '300',
+    padding: 20,
+    width: '100%',
+    backgroundColor: '#FFF',
+    borderRadius: 8,
+    marginBottom: 40
+  }
+});
