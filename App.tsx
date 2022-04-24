@@ -1,16 +1,20 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 import MovieSearchbox from './components/MovieSearchbox';
+import { Provider } from 'react-redux';
+import { store } from './store';
 
 export default function App() {
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>
-        What To Watch
+    <Provider store={store} >
+      <View style={styles.container}>
+        <Text style={styles.title}>
+          Some text
       </Text>
-      <MovieSearchbox />
-    </View>
+        <MovieSearchbox />
+      </View>
+    </Provider>
   );
 }
 
